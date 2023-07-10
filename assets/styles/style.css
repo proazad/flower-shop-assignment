@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-primary{
+    background: rgba(229, 84, 115, 0.10);
+}

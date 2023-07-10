@@ -1,7 +1,42 @@
-*{
+/* ********* General / Common CSS Styles Start Here ******************** */
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.bg-primary{
+
+.bg-primary {
     background: rgba(229, 84, 115, 0.10);
+}
+
+.w-100vw {
+    width: 100vw;
+}
+
+.w-90vw {
+    width: 90vw;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.h-90vh {
+    height: 90vh;
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    padding: 8px 10px;
+    text-decoration: none;
 }

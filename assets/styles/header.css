@@ -1,4 +1,30 @@
 /* Header Section Styles Start Here  */
-header.header-section{
-    display: flex;
+.header-section {
+    padding: 50px 0px;
+}
+
+.header-content {}
+
+.header-content .header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.header-content .header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-shop-now {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.header-img {
+    max-width: 520px;
 }

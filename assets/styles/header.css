@@ -10,14 +10,14 @@
     font-family: Lato;
     font-size: 50px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .header-content .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .btn-shop-now {

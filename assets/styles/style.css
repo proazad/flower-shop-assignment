@@ -27,11 +27,15 @@
 }
 
 .container {
-    width: 90vw;
+    width: 85vw;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-d-column {
+    flex-direction: column;
 }
 
 .btn-primary {
@@ -40,3 +44,45 @@
     padding: 8px 10px;
     text-decoration: none;
 }
+
+.section-title {
+    margin-bottom: 15px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* Our Featured Flower Section Styles Start From Here  */
+.feature-flower-header {
+    width: 500px;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.feater-flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature-flower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+/* Our Featured Flower Section Styles  End Here  */

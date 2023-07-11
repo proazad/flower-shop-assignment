@@ -24,11 +24,6 @@
     height: 90vh;
 }
 
-.container {
-    width: 85vw;
-    margin: 0 auto;
-}
-
 .btn-primary {
     border-radius: 5px;
     background: #E55473;
@@ -51,14 +46,12 @@
 .header-section {
     padding: 70px 0px 0px;
     max-height: 100vh;
-    display: flex;
 }
 
 .header-container {
     width: 85vw;
     margin: 0 auto;
     display: flex;
-    gap:100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -83,6 +76,14 @@
 .btn-shop-now {
     color: #FFF;
     font-size: 18px;
+    border: 1px solid #fdfdfd;
+    transition: all .35s ease-out;
+}
+
+.btn-shop-now:hover {
+    color: #E55473;
+    border: 1px solid #E55473;
+    background-color: transparent;
 }
 
 .header-img {
@@ -94,10 +95,16 @@
 * Header Section Styles End Here 
 * Our Featured Flower Section Styles Start From Here
 */
+.feature-flower-section {
+    width: 85vw;
+    margin: 0 auto;
+}
+
 .feature-flower-header {
     width: 500px;
     padding: 70px 0px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .feater-flower-description {
@@ -144,14 +151,21 @@
     font-size: 20px;
     font-weight: 600;
     margin: 20px 0;
+    transition: color .35s ease;
 }
-
+.flower-container>a:hover{
+color: blue;
+}
 /* 
 Our Featured Flower Section Styles  End Here 
 Our Service Section Styles Start here
  */
 .our-service-section {
-    width: 100%;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.our-service-container {
     display: flex;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);

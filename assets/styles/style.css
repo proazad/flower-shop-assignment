@@ -2,8 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .bg-primary {
@@ -28,14 +26,7 @@
 
 .container {
     width: 85vw;
-    display: flex;
     margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flex-d-column {
-    flex-direction: column;
 }
 
 .btn-primary {
@@ -48,12 +39,61 @@
 .section-title {
     margin-bottom: 15px;
     color: #272727;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 35px;
     font-weight: 800;
 }
 
-/* Our Featured Flower Section Styles Start From Here  */
+/*
+*Common styles End Here 
+* Header Section Styles Start Here 
+*/
+.header-section {
+    padding: 70px 0px 0px;
+    max-height: 100vh;
+    display: flex;
+}
+
+.header-container {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {}
+
+.header-content .header-title {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.header-content .header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.btn-shop-now {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.header-img {
+    max-width: 480px;
+    height: auto;
+}
+
+/* 
+* Header Section Styles End Here 
+* Our Featured Flower Section Styles Start From Here
+*/
 .feature-flower-header {
     width: 500px;
     padding: 70px 0px;
@@ -62,7 +102,7 @@
 
 .feater-flower-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -100,10 +140,34 @@
 .flower-container>a {
     color: #272727;
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 20px 0;
 }
 
-/* Our Featured Flower Section Styles  End Here  */
+/* 
+Our Featured Flower Section Styles  End Here 
+Our Service Section Styles Start here
+ */
+.our-service-section {
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 70px 0;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+}
+
+.service {
+    text-align: center;
+}
+
+.service>p {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}

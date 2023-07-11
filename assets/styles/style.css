@@ -8,27 +8,21 @@
     background: rgba(229, 84, 115, 0.10);
 }
 
-.w-100vw {
-    width: 100vw;
-}
-
-.w-90vw {
-    width: 90vw;
-}
-
-.h-100vh {
-    height: 100vh;
-}
-
-.h-90vh {
-    height: 90vh;
-}
-
 .btn-primary {
-    border-radius: 5px;
+    border-radius: 8px;
     background: #E55473;
-    padding: 8px 10px;
+    padding: 8px 15px;
     text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid #fdfdfd;
+    transition: all .35s ease-out;
+}
+
+.btn-primary:hover {
+    color: #E55473;
+    border: 1px solid #E55473;
+    background-color: transparent;
 }
 
 .section-title {
@@ -39,9 +33,18 @@
     font-weight: 800;
 }
 
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
 /*
-*Common styles End Here 
-* Header Section Styles Start Here 
+** Common styles End Here 
+** Header Section Styles Start Here 
 */
 .header-section {
     padding: 70px 0px 0px;
@@ -66,34 +69,14 @@
     margin-bottom: 35px;
 }
 
-.header-content .header-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 25px;
-}
-
-.btn-shop-now {
-    color: #FFF;
-    font-size: 18px;
-    border: 1px solid #fdfdfd;
-    transition: all .35s ease-out;
-}
-
-.btn-shop-now:hover {
-    color: #E55473;
-    border: 1px solid #E55473;
-    background-color: transparent;
-}
-
 .header-img {
     max-width: 480px;
     height: auto;
 }
 
 /* 
-* Header Section Styles End Here 
-* Our Featured Flower Section Styles Start From Here
+** Header Section Styles End Here 
+** Our Featured Flower Section Styles Start From Here
 */
 .feature-flower-section {
     width: 85vw;
@@ -105,14 +88,6 @@
     padding: 70px 0px;
     text-align: center;
     margin: 0 auto;
-}
-
-.feater-flower-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
 }
 
 .feature-flower {
@@ -153,12 +128,14 @@
     margin: 20px 0;
     transition: color .35s ease;
 }
-.flower-container>a:hover{
-color: blue;
+
+.flower-container>a:hover {
+    color: blue;
 }
+
 /* 
-Our Featured Flower Section Styles  End Here 
-Our Service Section Styles Start here
+** our Featured Flower Section Styles  End Here 
+** Our Service Section Styles Start here
  */
 .our-service-section {
     width: 85vw;
@@ -184,4 +161,26 @@ Our Service Section Styles Start here
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+/* 
+** Our Service Section Styles End here
+** Hot Deals Section Styles Start here
+ */
+.hot-deals-section {}
+
+.hot-deals-container {
+    width: 85vw;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-deals-content{
+    text-align: center;
+}
+.deals-off{
+    color: #E55473;
+    text-transform: uppercase;
 }

@@ -14,6 +14,7 @@
     padding: 8px 15px;
     text-decoration: none;
     color: #FFF;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     border: 1px solid #fdfdfd;
     transition: all .35s ease-out;
@@ -191,23 +192,62 @@
 ** Hot Deals Section Styles End here
 ** Instagram Section Styles Start here
  */
- .instagram-section{
+.instagram-section {}
 
- }
- .instagram-container{
+.instagram-container {
     width: 85vw;
     margin: 50px auto;
- }
- .instagram-header{
+}
+
+.instagram-header {
     margin: 50px 0;
     text-align: center;
- }
- .instagram-img-gallery{
+}
+
+.instagram-img-gallery {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
- }
- .instagram-img-gallery img{
+}
+
+.instagram-img-gallery img {
     max-width: 250px;
- }
+}
+
+/* 
+** Instagram Section Styles End here
+** Subscription Section Styles Start here
+ */
+.subscription-section {
+    margin: 70px 0;
+}
+
+.subscription-container {
+    width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/Rectangle-9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0px;
+    border-radius: 5px;
+}
+
+.subscription-form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.email {
+    width: 70%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato', sans-serif;
+    font-family: Lato;
+    font-size: 16px;
+}

@@ -177,10 +177,37 @@
     justify-content: space-around;
     align-items: center;
 }
-.hot-deals-content{
+
+.hot-deals-content {
     text-align: center;
 }
-.deals-off{
+
+.deals-off {
     color: #E55473;
     text-transform: uppercase;
 }
+
+/* 
+** Hot Deals Section Styles End here
+** Instagram Section Styles Start here
+ */
+ .instagram-section{
+
+ }
+ .instagram-container{
+    width: 85vw;
+    margin: 50px auto;
+ }
+ .instagram-header{
+    margin: 50px 0;
+    text-align: center;
+ }
+ .instagram-img-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ }
+ .instagram-img-gallery img{
+    max-width: 250px;
+ }
